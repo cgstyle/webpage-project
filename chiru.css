@@ -1,0 +1,38 @@
+body{
+
+    background-color: wheat;
+}
+.navbar-brand:hover{
+    background-color: red;
+
+}
+
+.jumbotron{
+
+    display: grid;
+    margin-left: 400px;
+    margin-right: 200px;
+justify-items: center;
+border: solid 1px black;
+border-width: 2px;
+box-sizing: border-box;
+background-color: aquamarine;
+}
+.container{
+align-content: flex-start;
+
+}
+
+
+
+.menu{
+    display: grid;
+    grid-template-columns: 100px;
+    color: rgb(187, 179, 179);
+    padding-top: 10px;
+    padding-left: 0.2px;
+    padding-right: 5px;
+    font-size: larger;
+    float: left; 
+    position: fixed;
+}
